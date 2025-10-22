@@ -8,6 +8,8 @@ namespace KTNCTest
 {
     public class TinhToan
     {
-        public bool LaSoChan(int i) => i%2 == 0;
+        public bool LaSoChan(int i) {
+            return i % 2 == 0;
+        }
     }
 }
